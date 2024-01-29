@@ -9,10 +9,13 @@ const Process = () => {
             <div className="left">
               <div className="devman_tm_main_title" data-text-align="left">
                 <span>Working to make difference</span>
-                <h3>Real Passion to Create Amazing Things</h3>
+                <h3>
+                  Immerse yourself in a visually captivating interface that
+                  embodies innovation.
+                </h3>
                 <p>
-                  Dliquip ex ea commo do conse namber onequa ute irure dolor in
-                  reprehen derit in voluptate
+                  Experience a visually appealing interface that reflects
+                  professionalism and innovation
                 </p>
               </div>
             </div>

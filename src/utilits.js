@@ -78,7 +78,7 @@ export const preloader = () => {
   preloader_();
   setTimeout(() => {
     document.querySelector("body").classList.add("opened");
-  }, 3000);
+  }, 1000);
 };
 
 export const aTagClick = () => {

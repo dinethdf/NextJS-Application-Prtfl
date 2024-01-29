@@ -2,24 +2,19 @@ import { Fragment, useEffect, useRef, useState } from "react";
 
 const accordionData = [
   {
-    title: "Work Strategy",
+    title: "Responsive Design:",
     details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
+      "Crafting seamless experiences across all devices. Our responsive design ensures that your website looks and functions flawle , no matter the screen size.",
   },
   {
-    title: "The Process of Our Work",
+    title: "Call-to-Action (CTA):",
     details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
+      "Maximize user engagement and boost conversions with our strategically placed Call-to-Action buttons. Our thoughtfully designed CTAs guide visitors toward meaningful interactions.",
   },
   {
-    title: "Core Value of Development",
+    title: "Clean and Modern Design:",
     details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
-  },
-  {
-    title: "Desire to Work Hard",
-    details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
+      "Embrace the power of simplicity and elegance. Our designs prioritize clarity and modern aesthetics, creating visually appealing interfaces that captivate users.",
   },
 ];
 

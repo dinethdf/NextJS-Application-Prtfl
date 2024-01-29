@@ -1,11 +1,49 @@
 import { Fragment, useState } from "react";
 import DetailsPopup from "./popup/DetailsPopup";
 
+const portfolioData = [
+  {
+    pro: "Web Development",
+    name: "Catchyglow Online Shop",
+    mImg: "img/service/1.jpg",
+
+    description: [
+      "First Discription",
+      "First Discription",
+      "First Discription",
+    ],
+    img_1: "img/service/1.jpg",
+    img_2: "img/service/1.jpg",
+    img_3: "img/service/1.jpg",
+  },
+  {
+    pro: "Web Development",
+    name: "Brandleagure Company",
+    mImg: "img/service/1.jpg",
+    description: [
+      "First Discription",
+      "First Discription",
+      "First Discription",
+    ],
+    img_1: "img/service/1.jpg",
+    img_2: "img/service/1.jpg",
+    img_3: "img/service/1.jpg",
+  },
+];
+
 const Portfolio = () => {
+  const [detailpop, setDetailpop] = useState({});
   const [popup, setPopup] = useState(false);
   return (
     <Fragment>
-      <DetailsPopup open={popup} close={() => setPopup(false)} />
+      <DetailsPopup
+        open={popup}
+        close={() => {
+          setPopup(false);
+          setDetailpop({});
+        }}
+        data={detailpop}
+      />
       <div className="devman_tm_section" id="portfolio">
         <div className="devman_tm_portfolio">
           <div className="container">
@@ -19,6 +57,41 @@ const Portfolio = () => {
             </div>
             <div className="portfolio_list">
               <ul>
+                {/* Start OF Web Projects? */}
+                {portfolioData.map((portfolio_dt, j) => (
+                  <li className="wow fadeInUp" data-wow-duration="1s" key={j}>
+                    <div className="list_inner">
+                      <div
+                        className="background_image"
+                        data-img-url="img/portfolio/4.jpg"
+                      />
+                      <div className="content">
+                        <div className="details">
+                          <span className="category">
+                            <a href="#">Details</a>
+                          </span>
+                          <h3 className="title">
+                            <a href="#">{portfolio_dt.name}</a>
+                          </h3>
+                          <span className="view_project">
+                            <a href="#">
+                              View Project <i className="icon-right-big" />
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                      <div className="overlay" />
+                      <a
+                        className="devman_tm_full_link portfolio_popup c-pointer"
+                        onClick={() => {
+                          setDetailpop(portfolio_dt);
+                          setPopup(true);
+                        }}
+                      />
+                    </div>
+                  </li>
+                ))}
+                {/* End OF Web Projects? */}
                 <li className="wow fadeInUp" data-wow-duration="1s">
                   <div className="list_inner">
                     <div
@@ -50,7 +123,7 @@ const Portfolio = () => {
                     />
                   </div>
                 </li>
-                <li className="wow fadeInUp" data-wow-duration="1s">
+                {/* <li className="wow fadeInUp" data-wow-duration="1s">
                   <div className="list_inner">
                     <div
                       className="background_image"
@@ -111,8 +184,8 @@ const Portfolio = () => {
                       href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
                   </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-duration="1s">
+                </li> */}
+                {/* <li className="wow fadeInUp" data-wow-duration="1s">
                   <div className="list_inner">
                     <div
                       className="background_image"
@@ -142,7 +215,8 @@ const Portfolio = () => {
                       onClick={() => setPopup(true)}
                     />
                   </div>
-                </li>
+                </li>  */}
+
                 <div
                   className="shape_1 moving_effect"
                   data-direction="y"

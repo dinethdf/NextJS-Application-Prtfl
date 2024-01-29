@@ -3,13 +3,13 @@ import ServicePopup from "./popup/ServicePopup";
 
 const serviceData = [
   {
-    name: "Desktop Application",
+    name: "Website Development",
     icon: "img/svg/cpu.svg",
     img: "img/service/1.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "My passion is building responsive, captivating websites. Creating captivating online experiences that complement your brand identity and business goals is my area of expertise in website development.",
+      "My priorities include clear code, intuitive user interfaces, and peak speed for everything from e-commerce sites to informational webpages.",
+      "Boost your online visibility by creating websites that offer a perfect user experience in addition to attractive design.",
     ],
   },
   {
@@ -17,29 +17,29 @@ const serviceData = [
     icon: "img/svg/phone.svg",
     img: "img/service/2.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+      "I specialize for creating feature-rich and user-friendly mobile applications, turning concepts into dynamic mobile experiences.",
+      "My mobile apps, which are accessible on iOS and Android, combine beautiful design and flawless functionality to provide solutions that users find compelling.",
       "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
     ],
   },
   {
-    name: "Website Development",
+    name: "Desktop Application",
     icon: "img/svg/web.svg",
     img: "img/service/3.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Master the craft of developing desktop applications with a priority on usability, effectiveness, and utility.",
+      "My desktop programs, which range from powerful project management tools to creative industrial solutions, are made to improve user experiences and expedite procedures.",
+      "I ensure that each computer program satisfies the highest requirements of performance and usability using cutting-edge technologies.",
     ],
   },
   {
-    name: "Game Development",
+    name: "UI/UX Design",
     icon: "img/svg/star.svg",
     img: "img/service/4.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Design is about presenting an interesting and enjoyable user experience, not merely lovely items.",
+      "I'm an expert in UI/UX design that goes beyond design, with a strong attention to detail and a user-centric mindset.",
+      "I make concepts come to life by making sure people have an easy and straightforward experience, from wireframes to prototypes. Use designs that are pleasing to the eye and comfortable to the touch to improve the usability and appeal of your product.",
     ],
   },
 ];
@@ -68,7 +68,7 @@ const Service = () => {
                       <img className="svg" src={service.icon} alt="" />
                       <h3 className="title">{service.name}</h3>
                       <p className="text">
-                        {service.description[0].substring(0, 138)}.
+                        {service.description[0].substring(0, 138) + "."}.
                       </p>
                       <a
                         className="devman_tm_full_link c-pointer"

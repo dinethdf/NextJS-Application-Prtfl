@@ -13,10 +13,7 @@ const Skills = () => {
           <div className="devman_tm_main_title" data-text-align="center">
             <span>My Skills</span>
             <h3>I Develop Skills Regularly</h3>
-            <p>
-              Dliquip ex ea commo do conse namber onequa ute irure dolor in
-              reprehen derit in voluptate
-            </p>
+            <p></p>
           </div>
           <div className="skills_wrapper">
             <div className="left">
@@ -27,7 +24,7 @@ const Skills = () => {
                   data-color="#142eb5"
                 >
                   <span>
-                    <span className="label">WordPress</span>
+                    <span className="label">JavaScript</span>
                     <span className="number">95%</span>
                   </span>
                   <div className="background">
@@ -42,7 +39,7 @@ const Skills = () => {
                   data-color="#142eb5"
                 >
                   <span>
-                    <span className="label">Joomla</span>
+                    <span className="label">PHP</span>
                     <span className="number">75%</span>
                   </span>
                   <div className="background">
@@ -57,8 +54,8 @@ const Skills = () => {
                   data-color="#142eb5"
                 >
                   <span>
-                    <span className="label">Drupal</span>
-                    <span className="number">90%</span>
+                    <span className="label">Java</span>
+                    <span className="number">50%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -76,8 +73,8 @@ const Skills = () => {
                   data-color="#142eb5"
                 >
                   <span>
-                    <span className="label">Python</span>
-                    <span className="number">70%</span>
+                    <span className="label">React JS</span>
+                    <span className="number">60%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -91,8 +88,8 @@ const Skills = () => {
                   data-color="#142eb5"
                 >
                   <span>
-                    <span className="label">PHP</span>
-                    <span className="number">80%</span>
+                    <span className="label">Node JS</span>
+                    <span className="number">50%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -106,7 +103,7 @@ const Skills = () => {
                   data-color="#142eb5"
                 >
                   <span>
-                    <span className="label">JavaScript</span>
+                    <span className="label">HTML/CSS</span>
                     <span className="number">60%</span>
                   </span>
                   <div className="background">

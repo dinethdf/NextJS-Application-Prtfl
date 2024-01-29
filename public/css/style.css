@@ -764,7 +764,7 @@ h6 {
   margin: 0px 0px 70px 0px;
   width: 33.3333%;
   float: left;
-  padding-left: 70px;
+  padding-left: 50px;
 }
 .devman_tm_features .features_list ul li .list_inner {
   width: 100%;
@@ -826,8 +826,8 @@ h6 {
   font-size: 24px;
 }
 .devman_tm_features .features_list ul li .svg {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .devman_tm_features .features_list ul li .text {
   width: 100%;
@@ -1495,11 +1495,11 @@ h6 {
   width: 100%;
   min-width: 100%;
   position: relative;
-  height: 8px;
+  height: 10px;
   border-radius: 50px;
 }
 .progress_inner .background .bar_in {
-  height: 8px;
+  height: 10px;
   width: 0px;
   overflow: hidden;
   border-radius: 50px;

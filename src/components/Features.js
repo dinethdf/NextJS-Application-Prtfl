@@ -1,18 +1,18 @@
 const features_list = [
   {
-    title: "Dedication",
+    title: "UI Design",
     icon: "img/svg/design.svg",
-    text: "Sed do eiusmod tempor incididunt ut labore ullamco laboris nisi ut aliquip ex ea commo do conse namber onequat.",
+    text: "With 2 years of UI/UX experience, I craft visually engaging interfaces for seamless digital experiences. Proficient in Sketch and Figma, my designs blend creativity with functionality.",
   },
   {
-    title: "Smart Work",
+    title: "Web Development",
     icon: "img/svg/development.svg",
-    text: "Sed do eiusmod tempor incididunt ut labore ullamco laboris nisi ut aliquip ex ea commo do conse namber onequat.",
+    text: "Web developer specializing in responsive websites. Proficient in HTML, CSS, JavaScript, React, and Node.js. Passionate about clean code and user-centric design. Explore my portfolio for impactful web solutions. Let's build something great together!.",
   },
   {
-    title: "Intelligence",
+    title: "Softwere Development",
     icon: "img/svg/landing.svg",
-    text: "Sed do eiusmod tempor incididunt ut labore ullamco laboris nisi ut aliquip ex ea commo do conse namber onequat.",
+    text: "As a software developer, I specialize in crafting robust and efficient solutions. Proficient in languages such as Java, and C# I bring a strong foundation in algorithm design and problem-solving. Explore my portfolio to see how I can contribute to your project's success.",
   },
 ];
 const Features = () => {

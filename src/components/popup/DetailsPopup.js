@@ -1,5 +1,6 @@
 import Popup from "./Popup";
-const DetailsPopup = ({ open, close }) => {
+
+const DetailsPopup = ({ data, open, close }) => {
   return (
     <Popup open={open} close={close}>
       <div className="popup_details">
@@ -7,12 +8,12 @@ const DetailsPopup = ({ open, close }) => {
           <img src="img/thumbs/4-2.jpg" alt="" />
           <div
             className="main"
-            data-img-url="img/portfolio/4.jpg"
-            style={{ backgroundImage: 'url("img/portfolio/4.jpg")' }}
+            data-img-url={data.img}
+            style={{ backgroundImage: `url(${data.mImg})` }}
           />
         </div>
         <div className="portfolio_main_title">
-          <h3>Mockup Phone</h3>
+          <h3>Mockup Phone{data.name}</h3>
           <span>
             <a href="#" onClick={(e) => e.preventDefault()}>
               Details
@@ -22,10 +23,9 @@ const DetailsPopup = ({ open, close }) => {
         </div>
         <div className="main_details">
           <div className="textbox">
-            <p>
-              We live in a world where we need to move quickly and iterate on
-              our ideas as flexibly as possible.
-            </p>
+            {data &&
+              data.description &&
+              data.description.map((des, i) => <p key={i}>{des}----</p>)}
             <p>
               Mockups are useful both for the creative phase of the project -
               for instance when {`you're`} trying to figure out your user flows
@@ -59,7 +59,11 @@ const DetailsPopup = ({ open, close }) => {
               <div className="list_inner">
                 <div className="my_image">
                   <img src="img/thumbs/4-2.jpg" alt="" />
-                  <div className="main" data-img-url="img/service/1.jpg" />
+
+                  <div
+                    className="main"
+                    style={{ backgroundImage: `url(${data.img_1})` }}
+                  />
                 </div>
               </div>
             </li>
@@ -67,7 +71,10 @@ const DetailsPopup = ({ open, close }) => {
               <div className="list_inner">
                 <div className="my_image">
                   <img src="img/thumbs/4-2.jpg" alt="" />
-                  <div className="main" data-img-url="img/service/2.jpg" />
+                  <div
+                    className="main"
+                    style={{ backgroundImage: `url(${data.img_2})` }}
+                  />
                 </div>
               </div>
             </li>
@@ -75,7 +82,10 @@ const DetailsPopup = ({ open, close }) => {
               <div className="list_inner">
                 <div className="my_image">
                   <img src="img/thumbs/4-2.jpg" alt="" />
-                  <div className="main" data-img-url="img/service/3.jpg" />
+                  <div
+                    className="main"
+                    style={{ backgroundImage: `url(${data.img_3})` }}
+                  />
                 </div>
               </div>
             </li>

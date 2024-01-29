@@ -30,19 +30,19 @@ const IndexDark = () => {
   return (
     <Layout>
       <Head>
-        <title>Devman | Home</title>
+        <title>Dineth D Fonseka | Web Developper</title>
       </Head>
       <MobileHeader />
       <Header />
       <Home />
       <Features />
       <About />
-      <CounterSection />
+      {/* <CounterSection /> */}
       <Portfolio />
       <Skills />
       <Service />
       <Process />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Partners dark />
       <Contact />
       <Blog />

@@ -1,14 +1,14 @@
 import Counter from "./Counter";
 
 const homeData = {
-  firstName: "James",
-  lastName: "Smith",
+  firstName: "Dineth D",
+  lastName: "Fonseka",
   designation: "Web Developer",
-  address: "New York",
+  address: "Sri Lanka",
   img: "img/hero/2.jpg",
-  bio: "Jodi kokhono vul hoye jai tumi oporadh nio na ptate velit esse cillum dolore",
-  numberOfProject: 800,
-  numberofyear: 12,
+  bio: "Hello, I’m a Dineth, web-developer based on Sri Lanka. I have rich experience in web site design & building and customization.",
+  numberOfProject: 30,
+  numberofyear: 3,
 };
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
                 <div className="buttons">
                   <div className="devman_tm_button">
                     <a className="anchor" href="#contact">
-                      Get a Quote
+                      Download CV
                     </a>
                   </div>
                   <div className="simple_button">
