@@ -40,7 +40,6 @@ const Portfolio = () => {
         open={popup}
         close={() => {
           setPopup(false);
-          setDetailpop({});
         }}
         data={detailpop}
       />
@@ -49,10 +48,10 @@ const Portfolio = () => {
           <div className="container">
             <div className="devman_tm_main_title" data-text-align="center">
               <span>Portfolio</span>
-              <h3>My Amazing Works</h3>
+              <h3>Unleashing My Creative Code</h3>
+              <hr />
               <p>
-                Dliquip ex ea commo do conse namber onequa ute irure dolor in
-                reprehen derit in voluptate
+                Embark on a Visual Journey: My Web Development Portfolio 🚀🎨
               </p>
             </div>
             <div className="portfolio_list">

@@ -7,9 +7,9 @@ const accordionData = [
       "Crafting seamless experiences across all devices. Our responsive design ensures that your website looks and functions flawle , no matter the screen size.",
   },
   {
-    title: "Call-to-Action (CTA):",
+    title: "Ready to elevate your digital presence ?",
     details:
-      "Maximize user engagement and boost conversions with our strategically placed Call-to-Action buttons. Our thoughtfully designed CTAs guide visitors toward meaningful interactions.",
+      "Let's turn your ideas into stunning web realities. Connect with me, and let's create something extraordinary together!",
   },
   {
     title: "Clean and Modern Design:",

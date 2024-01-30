@@ -43,7 +43,7 @@ const IndexDark = () => {
       <Service />
       <Process />
       {/* <Testimonials /> */}
-      <Partners dark />
+      {/* <Partners dark /> */}
       <Contact />
       <Blog />
       <Copyright />

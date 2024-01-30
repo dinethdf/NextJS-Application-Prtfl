@@ -7,7 +7,8 @@ const serviceData = [
     icon: "img/svg/cpu.svg",
     img: "img/service/1.jpg",
     description: [
-      "My passion is building responsive, captivating websites. Creating captivating online experiences that complement your brand identity and business goals is my area of expertise in website development.",
+      "My passion is building responsive, captivating websites. Expert in crafting captivating online experiences that align with brand identity and business goals.",
+      "Creating captivating online experiences that complement your brand identity and business goals is my area of expertise in website development.",
       "My priorities include clear code, intuitive user interfaces, and peak speed for everything from e-commerce sites to informational webpages.",
       "Boost your online visibility by creating websites that offer a perfect user experience in addition to attractive design.",
     ],
@@ -67,9 +68,7 @@ const Service = () => {
                     <div className="list_inner">
                       <img className="svg" src={service.icon} alt="" />
                       <h3 className="title">{service.name}</h3>
-                      <p className="text">
-                        {service.description[0].substring(0, 138) + "."}.
-                      </p>
+                      <p className="text">{service.description[0] + ""}</p>
                       <a
                         className="devman_tm_full_link c-pointer"
                         onClick={() => {

@@ -1,9 +1,9 @@
 const aboutData = {
   designation: "Developer",
-  title: "I Develop Application that Help People",
+  title: " I'm a Forward-Thinking Web Developer",
   text: [
-    "Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat",
-    "Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis",
+    "Thrives on turning ideas into reality. I focus on creating applications that empower and simplify the lives of users, combining functionality with an intuitive user experience.",
+    "I take pride in developing applications that solve real-world problems and enhance the way people interact with technology.",
   ],
   skillIcons: [
     { name: "joomla", icon: "img/svg/joomla.svg" },
