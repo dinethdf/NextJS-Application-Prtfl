@@ -5,16 +5,16 @@ const portfolioData = [
   {
     pro: "Web Development",
     name: "Catchyglow Online Shop",
-    mImg: "img/service/1.jpg",
+    mImg: "img/portfolio/catGlow/1.png",
 
     description: [
       "First Discription",
       "First Discription",
       "First Discription",
     ],
-    img_1: "img/service/1.jpg",
-    img_2: "img/service/1.jpg",
-    img_3: "img/service/1.jpg",
+    img_1: "img/portfolio/catGlow/1.png",
+    img_2: "img/portfolio/catGlow/2.png",
+    img_3: "img/portfolio/catGlow/3.png",
   },
   {
     pro: "Web Development",
@@ -25,9 +25,9 @@ const portfolioData = [
       "First Discription",
       "First Discription",
     ],
-    img_1: "img/service/1.jpg",
-    img_2: "img/service/1.jpg",
-    img_3: "img/service/1.jpg",
+    img_1: "img/portfolio/branLgr/1.png",
+    img_2: "img/portfolio/branLgr/2.png",
+    img_3: "img/portfolio/branLgr/3.png",
   },
 ];
 

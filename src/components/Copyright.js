@@ -5,17 +5,7 @@ const Copyright = () => {
         <div className="container">
           <div className="inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
-              <p>
-                Developed with love by{" "}
-                <a
-                  href="https://themeforest.net/user/codeefly"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Codeefly
-                </a>{" "}
-                © {new Date().getFullYear()}
-              </p>
+              <p>Developed with DinethDF © {new Date().getFullYear()}</p>
             </div>
             <div className="right wow fadeInRight" data-wow-duration="1s">
               <ul>
