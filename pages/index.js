@@ -19,6 +19,7 @@ import Layout from "../src/layouts/Layout";
 import MobileHeader from "../src/layouts/MobileHeader";
 import Mouse from "../src/layouts/Mouse";
 import ScrollTop from "../src/layouts/ScrollTop";
+
 const Testimonials = dynamic(() => import("../src/components/Testimonials"), {
   ssr: false,
 });
@@ -42,10 +43,11 @@ const IndexDark = () => {
       <Skills />
       <Service />
       <Process />
+
       {/* <Testimonials /> */}
       {/* <Partners dark /> */}
       <Contact />
-      {/* <Blog /> */}
+      <Blog />
       <Copyright />
       <Mouse />
       <ScrollTop />
