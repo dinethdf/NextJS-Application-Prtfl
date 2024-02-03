@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import clientPromise from "../lib/mongodb";
+// import clientPromise from "../../../lib/mongodb";
 
 const aboutData = {
   designation: "Developer",
@@ -17,6 +17,21 @@ const aboutData = {
 };
 
 const About_api = ({ movies }) => {
+  const [data, setData] = useState(null);
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("/api/posts")
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No profile data</p>;
+
   return (
     <div className="devman_tm_section" id="about">
       <div className="devman_tm_about">
@@ -63,7 +78,7 @@ const About_api = ({ movies }) => {
               <div className="devman_tm_button">
                 <a className="anchor" href="#portfolio">
                   {data.map((text, i) => (
-                    <p key={i}>{text.plot}</p>
+                    <p key={i}>{text.plot}..</p>
                   ))}
                 </a>
               </div>
@@ -75,23 +90,3 @@ const About_api = ({ movies }) => {
   );
 };
 export default About_api;
-
-export async function getStaticProps() {
-  try {
-    const client = await clientPromise;
-    const db = client.db("sample_mflix");
-
-    const movies = await db
-      .collection("movies")
-      .find({})
-      .sort({ metacritic: -1 })
-      .limit(1000)
-      .toArray();
-
-    return {
-      props: { movies: JSON.parse(JSON.stringify(movies)) },
-    };
-  } catch (e) {
-    console.error(e);
-  }
-}
