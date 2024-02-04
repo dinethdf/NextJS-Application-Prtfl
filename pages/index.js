@@ -32,6 +32,12 @@ const IndexDark = () => {
     <Layout>
       <Head>
         <title>Dineth D Fonseka | Web Developper</title>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="img/hero/favicon.png"
+        />
       </Head>
       <MobileHeader />
       <Header />
