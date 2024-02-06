@@ -8,9 +8,11 @@ const portfolioData = [
     mImg: "img/portfolio/catGlow/1.png",
 
     description: [
-      "First Discription",
-      "First Discription",
-      "First Discription",
+      "As a skilled web developer, I designed and developed a fully customized e-commerce website for a client using WordPress and WooCommerce.",
+      "Leveraging the powerful functionalities of these platforms, I crafted a seamless online shopping experience tailored to my client's brand identity and target audience.",
+      "From intuitive product browsing to secure payment processing, every aspect of the website was meticulously crafted to enhance user engagement and drive sales. The site features responsive design, ensuring a consistent and optimized experience across all devices.",
+      "Through strategic integration of plugins and custom coding, I successfully implemented unique features and functionalities, empowering my client to manage and scale their online business effectively.",
+       "Explore the website to witness the seamless fusion of design and functionality, delivering an exceptional online shopping experience.",
     ],
     img_1: "img/portfolio/catGlow/1.png",
     img_2: "img/portfolio/catGlow/2.png",
