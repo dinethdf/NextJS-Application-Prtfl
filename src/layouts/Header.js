@@ -13,10 +13,10 @@ const Header = () => {
         <div className="header_inner">
           <div className="logo">
             <a className="light" href="#">
-              <img src="img/logo/logo.png" alt="" />
+              <img src="img/logo/DDF.svg" alt="" />
             </a>
             <a className="dark" href="#">
-              <img src="img/logo/dark.png" alt="" />
+              <img src="img/logo/DDF.svg" alt="" />
             </a>
           </div>
           <div className="menu">
@@ -36,11 +36,11 @@ const Header = () => {
               <li>
                 <a href="#contact">Contact</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#blog">Blog</a>
-              </li>
+              </li> */}
               <li className="download_cv">
-                <a href="img/cv/1.jpg" download>
+                <a href="img/cv/DDF_1.2.pdf" download>
                   Download CV
                 </a>
               </li>

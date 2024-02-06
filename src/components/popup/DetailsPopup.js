@@ -8,12 +8,12 @@ const DetailsPopup = ({ data, open, close }) => {
           <img src="img/thumbs/4-2.jpg" alt="" />
           <div
             className="main"
-            data-img-url={data.img}
+            data-img-url={data.mImg}
             style={{ backgroundImage: `url(${data.mImg})` }}
           />
         </div>
         <div className="portfolio_main_title">
-          <h3>Mockup Phone{data.name}</h3>
+          <h3>{data.name}</h3>
           <span>
             <a href="#" onClick={(e) => e.preventDefault()}>
               Details
@@ -25,30 +25,23 @@ const DetailsPopup = ({ data, open, close }) => {
           <div className="textbox">
             {data &&
               data.description &&
-              data.description.map((des, i) => <p key={i}>{des}----</p>)}
-            <p>
-              Mockups are useful both for the creative phase of the project -
-              for instance when {`you're`} trying to figure out your user flows
-              or the proper visual hierarchy - and the production phase when
-              they phase when they will represent the target product. Building
-              mockups strikes the ideal balance ease of modification.
-            </p>
+              data.description.map((des, i) => <p key={i}>{des}</p>)}
           </div>
           <div className="detailbox">
             <ul>
               <li>
                 <span className="first">Client</span>
-                <span>Alvaro Morata</span>
+                <span>{data.custemer}</span>
               </li>
               <li>
                 <span className="first">Category</span>
                 <span>
-                  <a href="#">Detail</a>
+                  <a href="#">{data.category}</a>
                 </span>
               </li>
               <li>
                 <span className="first">Date</span>
-                <span>April 22, 2022</span>
+                <span>{data.date_prj}</span>
               </li>
             </ul>
           </div>

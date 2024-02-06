@@ -4,15 +4,18 @@ import DetailsPopup from "./popup/DetailsPopup";
 const portfolioData = [
   {
     pro: "Web Development",
+    imgMain: "img/portfolio/catchy.svg",
     name: "Catchyglow Online Shop",
     mImg: "img/portfolio/catGlow/1.png",
+    date_prj: "March 10 2023",
+    custemer: "G M Nadishani",
+    category: "Ecommerce",
 
     description: [
       "As a skilled web developer, I designed and developed a fully customized e-commerce website for a client using WordPress and WooCommerce.",
       "Leveraging the powerful functionalities of these platforms, I crafted a seamless online shopping experience tailored to my client's brand identity and target audience.",
       "From intuitive product browsing to secure payment processing, every aspect of the website was meticulously crafted to enhance user engagement and drive sales. The site features responsive design, ensuring a consistent and optimized experience across all devices.",
-      "Through strategic integration of plugins and custom coding, I successfully implemented unique features and functionalities, empowering my client to manage and scale their online business effectively.",
-       "Explore the website to witness the seamless fusion of design and functionality, delivering an exceptional online shopping experience.",
+      "Explore the website to witness the seamless fusion of design and functionality, delivering an exceptional online shopping experience.",
     ],
     img_1: "img/portfolio/catGlow/1.png",
     img_2: "img/portfolio/catGlow/2.png",
@@ -20,12 +23,18 @@ const portfolioData = [
   },
   {
     pro: "Web Development",
+    imgMain: "img/portfolio/brandleagure.jpg",
     name: "Brandleagure Company",
-    mImg: "img/service/1.jpg",
+    mImg: "img/portfolio/branLgr/1.png",
+    date_prj: "July 15 2023",
+    custemer: "R. Dilshan",
+    Category: "Digital marketing",
+
     description: [
-      "First Discription",
-      "First Discription",
-      "First Discription",
+      "As a versatile web developer, I conceptualized and brought to life a dynamic website for a leading digital marketing company. ",
+      "Utilizing a blend of HTML, CSS, JavaScript, MySQL, and PHP, I crafted a robust online platform that showcases the company's services and expertise in the digital realm. From captivating landing pages to interactive content sections, every element of the website was meticulously designed to engage visitors and drive conversions.",
+      "Leveraging MySQL for database management and PHP for server-side scripting, I implemented advanced functionalities such as user authentication, data processing, and dynamic content generation, ensuring a personalized browsing experience for each visitor.",
+      "The website's responsive design and optimized performance guarantee seamless accessibility across devices, enhancing user satisfaction and retention. Dive into the website to explore the innovative fusion of design, technology, and marketing prowess, exemplifying the company's commitment to digital excellence.",
     ],
     img_1: "img/portfolio/branLgr/1.png",
     img_2: "img/portfolio/branLgr/2.png",
@@ -64,7 +73,10 @@ const Portfolio = () => {
                     <div className="list_inner">
                       <div
                         className="background_image"
-                        data-img-url="img/portfolio/4.jpg"
+                        data-img-url={portfolio_dt.imgMain}
+                        style={{
+                          backgroundImage: `url(${portfolio_dt.imgMain})`,
+                        }}
                       />
                       <div className="content">
                         <div className="details">
@@ -93,7 +105,9 @@ const Portfolio = () => {
                   </li>
                 ))}
                 {/* End OF Web Projects? */}
-                <li className="wow fadeInUp" data-wow-duration="1s">
+
+                {/* Start OF Video */}
+                {/* <li className="wow fadeInUp" data-wow-duration="1s">
                   <div className="list_inner">
                     <div
                       className="background_image"
@@ -123,7 +137,10 @@ const Portfolio = () => {
                       href="https://www.youtube.com/watch?v=7e90gBu4pas"
                     />
                   </div>
-                </li>
+                </li> */}
+
+                {/* Stop OF Video */}
+
                 {/* <li className="wow fadeInUp" data-wow-duration="1s">
                   <div className="list_inner">
                     <div

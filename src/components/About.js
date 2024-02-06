@@ -6,10 +6,10 @@ const aboutData = {
     "I take pride in developing applications that solve real-world problems and enhance the way people interact with technology.",
   ],
   skillIcons: [
-    { name: "joomla", icon: "img/svg/joomla.svg" },
+    { name: "nectjs", icon: "img/svg/nextjs.svg" },
+    { name: "react", icon: "img/svg/react.svg" },
+    { name: "aws", icon: "img/svg/aws.svg" },
     { name: "wp", icon: "img/svg/wp.svg" },
-    { name: "drupal", icon: "img/svg/drupal.svg" },
-    { name: "laravel", icon: "img/svg/laravel.svg" },
   ],
 };
 
@@ -22,13 +22,13 @@ const About = () => {
             <div className="left">
               <div className="image_wrap">
                 <img src="img/thumbs/64-49.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/about/3.jpg" />
                 <div className="extra_image">
                   <div className="image_inner">
                     <img src="img/thumbs/1-1.jpg" alt="" />
                     <div
                       className="main_extra"
-                      data-img-url="img/about/2.jpg"
+                      data-img-url="img/about/4.jpg"
                     />
                   </div>
                 </div>

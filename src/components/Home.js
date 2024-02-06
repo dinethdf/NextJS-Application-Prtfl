@@ -32,7 +32,7 @@ const Home = () => {
                 <p className="text">{homeData.bio}</p>
                 <div className="buttons">
                   <div className="devman_tm_button">
-                    <a className="anchor" href="#contact">
+                    <a href="img/cv/DDF_1.2.pdf" download>
                       Download CV
                     </a>
                   </div>

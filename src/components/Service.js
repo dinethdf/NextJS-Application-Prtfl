@@ -5,7 +5,7 @@ const serviceData = [
   {
     name: "Website Development",
     icon: "img/svg/cpu.svg",
-    img: "img/service/1.jpg",
+    img: "img/service/web.jpg",
     description: [
       "My passion is building responsive, captivating websites. Expert in crafting captivating online experiences that align with brand identity and business goals.",
       "Creating captivating online experiences that complement your brand identity and business goals is my area of expertise in website development.",
@@ -13,20 +13,11 @@ const serviceData = [
       "Boost your online visibility by creating websites that offer a perfect user experience in addition to attractive design.",
     ],
   },
-  {
-    name: "Mobile Application",
-    icon: "img/svg/phone.svg",
-    img: "img/service/2.jpg",
-    description: [
-      "I specialize for creating feature-rich and user-friendly mobile applications, turning concepts into dynamic mobile experiences.",
-      "My mobile apps, which are accessible on iOS and Android, combine beautiful design and flawless functionality to provide solutions that users find compelling.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    ],
-  },
+
   {
     name: "Desktop Application",
     icon: "img/svg/web.svg",
-    img: "img/service/3.jpg",
+    img: "img/service/soft.svg",
     description: [
       "Master the craft of developing desktop applications with a priority on usability, effectiveness, and utility.",
       "My desktop programs, which range from powerful project management tools to creative industrial solutions, are made to improve user experiences and expedite procedures.",
@@ -36,11 +27,20 @@ const serviceData = [
   {
     name: "UI/UX Design",
     icon: "img/svg/star.svg",
-    img: "img/service/4.jpg",
+    img: "img/service/uiux.jpg",
     description: [
       "Design is about presenting an interesting and enjoyable user experience, not merely lovely items.",
       "I'm an expert in UI/UX design that goes beyond design, with a strong attention to detail and a user-centric mindset.",
       "I make concepts come to life by making sure people have an easy and straightforward experience, from wireframes to prototypes. Use designs that are pleasing to the eye and comfortable to the touch to improve the usability and appeal of your product.",
+    ],
+  },
+  {
+    name: "Mobile Application",
+    icon: "img/svg/phone.svg",
+    img: "img/service/mob.jpg",
+    description: [
+      "I specialize for creating feature-rich and user-friendly mobile applications, turning concepts into dynamic mobile experiences.",
+      "My mobile apps, which are accessible on iOS and Android, combine beautiful design and flawless functionality to provide solutions that users find compelling.",
     ],
   },
 ];
