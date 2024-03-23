@@ -4,7 +4,7 @@ import DetailsPopup from "./popup/DetailsPopup";
 const portfolioData = [
   {
     pro: "Web Development",
-    imgMain: "img/portfolio/catchy.svg",
+    imgMain: "img/portfolio/catchy.jpg",
     name: "Catchyglow Online Shop",
     mImg: "img/portfolio/catGlow/1.png",
     date_prj: "March 10 2023",
