@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+// import ParticlesComponent from "./Particle";
 
 const homeData = {
   firstName: "Dineth D",

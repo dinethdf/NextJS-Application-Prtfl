@@ -8,6 +8,7 @@
 @import "swiper/css/scrollbar";
 @import "swiper/css/effect-fade";
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -64,4 +65,10 @@ html {
   transition: all 0.3s ease;
   height: unset;
   width: 100%;
+}
+#particles{
+  z-index: 2;
+  height: 100%;
+  width: 199;
+  
 }

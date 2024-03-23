@@ -8,6 +8,8 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "@tsparticles/all": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
     "dotenv": "^16.4.1",
     "emailjs-com": "^3.2.0",
     "mongodb": "^3.5.9",
